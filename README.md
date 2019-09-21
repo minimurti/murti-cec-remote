@@ -1,26 +1,26 @@
 # murti-cec-remote
 A modification of Pulse-Eight cec-client that allows for single character input to control multiple devices over HDMI-CEC (WARNING this will break the cec-client command if you have it installed)
 
-##How to install
+## How to install
 
-####Go to this directory
+#### Go to this directory
 
 cd murti-cec-client
 
-####Make the install script executable
+#### Make the install script executable
 
 chmod a+rx install.sh
 
-#####examine and edit the layout file (optional)
+#### examine and edit the layout file (optional)
 
 nano layout.h
 
-####Run the install script
+#### Run the install script
 
 ./install.sh
 
 
-##How to use
+## How to use
 
 -At any time run the "cec-client" command in a shell
 
@@ -40,17 +40,17 @@ When prompted "Which Device Number (or lowercase letter) would you like to contr
 
 ## Default Layout
 
-#####switch
+##### switch
 
   LISTDEVICE "I"
   CHANGEDEVICE "i"
 
-#####power
+##### power
 
   POWERON "p"
   STANDBY "P"
 
-#####navigation
+##### navigation
 
   RIGHT "d"
   LEFT "a"
@@ -60,7 +60,7 @@ When prompted "Which Device Number (or lowercase letter) would you like to contr
   EXIT "b" //circle on ps4
   CLEAR "j"
 
-#####playback
+##### playback
 
   PLAY "g" //play is g for go!
   REWIND "r"
@@ -68,7 +68,7 @@ When prompted "Which Device Number (or lowercase letter) would you like to contr
   FASTFORWARD "f"
   STOP "S"
 
-#####other
+##### other
 
   ROOTMENU "h" //home ps button ps4
   SETUPMENU "o" //option button ps4
