@@ -5,7 +5,8 @@ A modification of Pulse-Eight cec-client that allows for single character input 
 
 #### Clone
 
-Open up a shell 
+Open up a shell
+
 git clone https://github.com/minimurti/murti-cec-remote.git
 
 #### Go to this directory in shell
@@ -46,25 +47,43 @@ When prompted "Which Device Number (or lowercase letter) would you like to contr
 ## Default Layout
 
 LISTDEVICE "I"
+
 CHANGEDEVICE "i"
 
+
 POWERON "p"
+
 STANDBY "P"
 
+
 RIGHT "d"
+
 LEFT "a"
+
 UP "w"
+
 DOWN "s"
+
 SELECT "x"
+
 EXIT "b"
+
 CLEAR "j"
 
+
 PLAY "g"
+
 REWIND "r"
+
 RECORD "R"
+
 FASTFORWARD "f"
+
 STOP "S"
 
+
 ROOTMENU "h"
+
 SETUPMENU "o"
+
 EJECT "E"
