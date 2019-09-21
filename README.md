@@ -51,7 +51,7 @@ CHANGEDEVICE "i"
 POWERON "p"
 STANDBY "P"
 
-RIGHT:d
+RIGHT "d"
 LEFT "a"
 UP "w"
 DOWN "s"
