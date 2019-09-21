@@ -3,7 +3,12 @@ A modification of Pulse-Eight cec-client that allows for single character input 
 
 ## How to install
 
-#### Go to this directory
+#### Clone
+
+Open up a shell 
+git clone https://github.com/minimurti/murti-cec-remote.git
+
+#### Go to this directory in shell
 
 cd murti-cec-client
 
