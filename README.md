@@ -45,36 +45,26 @@ When prompted "Which Device Number (or lowercase letter) would you like to contr
 
 ## Default Layout
 
-##### switch
+LISTDEVICE "I"
+CHANGEDEVICE "i"
 
-  LISTDEVICE "I"
-  CHANGEDEVICE "i"
+POWERON "p"
+STANDBY "P"
 
-##### power
+RIGHT:d
+LEFT "a"
+UP "w"
+DOWN "s"
+SELECT "x"        //x on ps4
+EXIT "b"          //circle on ps4
+CLEAR "j"
 
-  POWERON "p"
-  STANDBY "P"
+PLAY "g"          //play is g for go!
+REWIND "r"
+RECORD "R"
+FASTFORWARD "f"
+STOP "S"
 
-##### navigation
-
-  RIGHT "d"
-  LEFT "a"
-  UP "w"
-  DOWN "s"
-  SELECT "x" //x on ps4
-  EXIT "b" //circle on ps4
-  CLEAR "j"
-
-##### playback
-
-  PLAY "g" //play is g for go!
-  REWIND "r"
-  RECORD "R"
-  FASTFORWARD "f"
-  STOP "S"
-
-##### other
-
-  ROOTMENU "h" //home ps button ps4
-  SETUPMENU "o" //option button ps4
-  EJECT "E" //eject ps4 too
+ROOTMENU "h"      //home ps button ps4
+SETUPMENU "o"     //option button ps4
+EJECT "E"         //eject ps4 too
