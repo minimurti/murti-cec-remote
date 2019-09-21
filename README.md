@@ -41,49 +41,51 @@ CEC version:   1.3a
 power status:  standby
 language:      eng
 
-When prompted "Which Device Number (or lowercase letter) would you like to control?:" type the corresponding device number of the device you wish to control. In this case pressing "4" will control the PS4.
+When prompted "Which Device Number (or lowercase letter) would you like to control?:" type the corresponding device number of the device you wish to control and hit enter. In this case pressing "4" will control the PS4.
 
 
 ## Default Layout
 
-LISTDEVICE "I"
+LISTDEVICE: "I"
 
-CHANGEDEVICE "i"
-
-
-POWERON "p"
-
-STANDBY "P"
+CHANGEDEVICE: "i"
 
 
-RIGHT "d"
+POWERON: "p"
 
-LEFT "a"
-
-UP "w"
-
-DOWN "s"
-
-SELECT "x"
-
-EXIT "b"
-
-CLEAR "j"
+STANDBY: "P"
 
 
-PLAY "g"
+RIGHT: "d"
 
-REWIND "r"
+LEFT: "a"
 
-RECORD "R"
+UP: "w"
 
-FASTFORWARD "f"
+DOWN: "s"
 
-STOP "S"
+SELECT: "x"
+
+EXIT: "b"
+
+CLEAR: "j"
 
 
-ROOTMENU "h"
+PLAY: "g"
 
-SETUPMENU "o"
+REWIND: "r"
 
-EJECT "E"
+RECORD: "R"
+
+FASTFORWARD: "f"
+
+STOP: "S"
+
+
+ROOTMENU: "h"
+
+SETUPMENU: "o"
+
+EJECT: "E"
+
+To quit the program: "CTRL - C"
