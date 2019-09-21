@@ -55,16 +55,16 @@ RIGHT:d
 LEFT "a"
 UP "w"
 DOWN "s"
-SELECT "x"        //x on ps4
-EXIT "b"          //circle on ps4
+SELECT "x"
+EXIT "b"
 CLEAR "j"
 
-PLAY "g"          //play is g for go!
+PLAY "g"
 REWIND "r"
 RECORD "R"
 FASTFORWARD "f"
 STOP "S"
 
-ROOTMENU "h"      //home ps button ps4
-SETUPMENU "o"     //option button ps4
-EJECT "E"         //eject ps4 too
+ROOTMENU "h"
+SETUPMENU "o"
+EJECT "E"
