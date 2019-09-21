@@ -3,7 +3,9 @@ A modification of Pulse-Eight cec-client that allows for single character input 
 
 ## How to install
 
-#### Clone
+Clone this repository and run the install script 
+
+#### Clone 
 
 Open up a shell
 
@@ -32,14 +34,14 @@ nano layout.h
 
 -After waiting, you will eventually see a list of options with text such as:
 
-device #4: Playback 1
-address:       2.5.0.0
-active source: no
-vendor:        Sony
-osd string:    PlayStation 4
-CEC version:   1.3a
-power status:  standby
-language:      eng
+device #4: Playback 1  
+address:       2.5.0.0  
+active source: no  
+vendor:        Sony  
+osd string:    PlayStation 4  
+CEC version:   1.3a  
+power status:  standby  
+language:      eng  
 
 When prompted "Which Device Number (or lowercase letter) would you like to control?:" type the corresponding device number of the device you wish to control and hit enter. In this case pressing "4" will control the PS4.
 
